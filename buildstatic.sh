@@ -16,9 +16,10 @@ mv fonts dist/
 mv homebrew dist/
 mv icon dist/
 mv image dist/
-mv img dist/
-mv js
+mv js dist/
 mv lib dist/
 mv pdf dist/
 mv prerelease dist/
 mv search dist/
+
+(cd dist && git clone https://github.com/5etools-mirror-3/5etools-img.git img)

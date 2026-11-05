@@ -1,3 +1,6 @@
+git clone https://github.com/5etools-mirror-3/5etools-img.git img
+npm run build:sw:prod
+
 mkdir -p dist
 
 mv manifest.webmanifest dist/
@@ -21,5 +24,4 @@ mv lib dist/
 mv pdf dist/
 mv prerelease dist/
 mv search dist/
-
-(cd dist && git clone https://github.com/5etools-mirror-3/5etools-img.git img)
+mv img dist/
